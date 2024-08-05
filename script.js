@@ -3,7 +3,7 @@ showSlides(slideIndex);
 
 function plusSlides(n) {
     showSlides(slideIndex += n);
-}
+}/*
 
 function showSlides(n) {
     const slides = document.querySelectorAll(".slide");
@@ -16,7 +16,7 @@ function showSlides(n) {
     slides.forEach((slide, index) => {
         slide.style.display = (index === slideIndex) ? "block" : "none";
     });
-}
+}*/
 
 document.addEventListener('DOMContentLoaded', function() {
     const items = document.querySelectorAll('.education-item');
