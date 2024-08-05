@@ -5,7 +5,7 @@ body {
     background: #fff;
     line-height: 1.6;
     margin: 0;
-    padding: 0;   
+    padding: 10px;   
 }
 
 header .logo {
@@ -46,6 +46,7 @@ span{
 }
 
 .home-content p{
+    display: flex;
     font-size: 1.6rem;
     color: #000000;
 }
