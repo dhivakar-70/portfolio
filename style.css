@@ -2,14 +2,10 @@
 
 body {
     font-family: Arial, sans-serif;
+    background: #fff;
     line-height: 1.6;
     margin: 0;
     padding: 0;   
-}
-
-body {
-    background: linear-gradient(45deg, #000000, hsl(0, 0%, 100%), #0000007b); /* Gradient background */
-    background-size: 200% 200%; /* Double size for animation */
 }
 
 header .logo {
