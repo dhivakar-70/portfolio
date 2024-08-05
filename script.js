@@ -18,6 +18,14 @@ function showSlides(n) {
     });
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+    const items = document.querySelectorAll('.education-item');
+    items.forEach((item, index) => {
+        item.style.animationDelay = `${index * 0.3}s`;
+    });
+});
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const nav = document.querySelector("nav");
     const toggleButton = document.createElement("button");
