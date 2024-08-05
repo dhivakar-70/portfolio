@@ -1,9 +1,9 @@
-let slideIndex = 0;
+/*let slideIndex = 0;
 showSlides(slideIndex);
 
 function plusSlides(n) {
     showSlides(slideIndex += n);
-}/*
+}
 
 function showSlides(n) {
     const slides = document.querySelectorAll(".slide");
@@ -25,19 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
-document.addEventListener("DOMContentLoaded", function () {
-    const nav = document.querySelector("nav");
-    const toggleButton = document.createElement("button");
-    toggleButton.innerText = "Menu";
-    toggleButton.classList.add("toggle");
-
-    toggleButton.addEventListener("click", function () {
-        nav.classList.toggle("active");
-    });
-
-    document.body.insertBefore(toggleButton, nav);
-});
 
 function sendEmail(event) {
     event.preventDefault();
