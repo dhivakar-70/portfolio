@@ -376,6 +376,7 @@ section#education {
     background: #ffffff;
     padding: 25px;
     margin-bottom: 20px;
+    overflow: hidden;
     border: 5px solid #0f0f0f;
     border-radius: 25px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
