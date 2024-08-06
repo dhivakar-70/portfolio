@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     color: #333;
     background-color: #f4f4f4;
 }
@@ -43,7 +43,6 @@ header {
 
 .home {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 7rem;
 }
